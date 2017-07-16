@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Workspace</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <!-- Template styles -->
+    <style rel="stylesheet">
+        /* TEMPLATE STYLES */
+        /* Necessary for full page carousel*/
+        
+        html,
+        body {
+            height: 100%;
+        }
+        /* Navigation*/
+        
+        .navbar {
+            background-color: transparent;
+        }
+        
+        .top-nav-collapse {
+            background-color: #304a74;
+        }
+        
+        footer.page-footer {
+            background-color: #304a74;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #4285F4;
+            }
+        }
+        
+        .scrolling-navbar {
+            -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+            transition: background .5s ease-in-out, padding .5s ease-in-out;
+        }
+        /* Carousel*/
+        
+        .carousel {
+            height: 50%;
+        }
+        
+        @media (max-width: 776px) {
+            .carousel {
+                height: 100%;
+            }
+        }
+        
+        .carousel-item,
+        .active {
+            height: 100%;
+        }
+        
+        .carousel-inner {
+            height: 100%;
+        }
+        
+        /*Caption*/
+        
+        .flex-center {
+            color: #fff;
+        }
+
+        .limittext {
+    white-space: nowrap; 
+    width: 100%; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+    </style>
+
+</head>
+
+<body>
+
+
+    <!--Navbar-->
+    <nav class="navbar navbar-toggleable-md navbar-dark fixed-top scrolling-navbar">
+        <div class="container">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav1" aria-controls="navbarNav1" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <strong>Navbar</strong>
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav1">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Videos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">About</a>
+                    </li>
+                </ul>
+                <form class="form-inline waves-effect waves-light">
+                    <input class="form-control" type="text" placeholder="Search">
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!--/.Navbar-->
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-3" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-example-3" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-3" data-slide-to="1"></li>
+            <li data-target="#carousel-example-3" data-slide-to="2"></li>
+        </ol>
+        <!--/.Indicators-->
+
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+
+            <!-- First slide -->
+            <div class="carousel-item active view hm-black-strong" style="background-image: url('img/testd.jpg');background-repeat: repeat-x;">
+                
+                <!-- Caption -->
+                <div class="full-bg-img flex-center">
+                    <div class="animated fadeIn col-md-12">
+                        <div class="row" style="margin-top: 40px;">
+                        	<div class="col-md-1">
+                        		
+                        	</div>
+                        	<div class="col-md-3 ">
+  								<img class="rounded-circle" src="img/electrical1.jpg" alt="Generic placeholder image">
+                           	</div>
+                           	<div class="col-md-3 ml-5">
+			                    <ul class="animated fadeIn col-md-12">
+			                        <li>
+			                            <h1 class="h1-responsive lead" style="font-weight: bold;">Electrical </h1>
+			                        </li>
+			                        <li>
+			                            <p>Followers <label class="badge blue">23</label> | Tags <label class="badge blue">44</label></p>
+			                            <br>
+			                        </li>
+			                        <li>
+			                            <a target="_blank" href="http://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-info btn-lg" rel="nofollow">Follow</a>
+			                        </li>
+			                    </ul>
+                    		</div>
+                    		<div class="col-md-1"></div>
+                    		<div class="col-md-3">
+                    			<ul class="animated fadeIn col-md-12">
+			                        <li>
+			                            <h2 class="h2-responsive" style="margin-top: 15px;"><i class="fa fa-bookmark"></i> Top Users </h2>
+			                        </li>
+			                        <li>
+			                        	<br>
+			                            <h3 style="font-style: italic;"><i class="fa fa-trophy"></i> Shreeya</h3>
+			                            <h3 style="font-style: italic;"><i class="fa fa-star"></i> Shreeya</h3>
+			                            <h3 style="font-style: italic;"><i class="fa fa-star-half-full"></i> Shreeya</h3>
+			                            
+			                        </li>
+			                    </ul>
+                    		</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.Caption -->
+                
+            </div>
+            <!--/.First slide-->
+
+            <!-- Second slide -->
+            <div class="carousel-item view hm-cyan-strong" style="background-image: url('img/testd.jpg'); background-repeat: no-repeat; background-size: cover;">
+                
+                <!-- Caption -->
+                <div class="full-bg-img flex-center white-text">
+                    <ul class="animated fadeIn col-md-12 mt-3">
+                    <div class="row">
+                    <div class="col-md-1"></div>
+                    	<div class="col-md-3 text-center">
+                        <li>
+                        <br>
+                            <h1 class="h1-responsive" style="font-weight: bold;color: #000000;">Trending Top tags:</h1>
+                        </li>
+                    		
+                    	</div>
+                    	<div class="col-md-3">
+                        <li>
+                            <h2 class="h2-responsive badge blue">1# tag</h2>
+                        </li>
+                        <li>
+                             <h2 class="h2-responsive badge blue">1# tag</h2>
+                        </li>
+                    		
+                    	</div>
+                    	<div class="col-md-2">
+                    		                        <li>
+ 						<h2 class="h2-responsive badge blue">1# tag</h2>
+                         </li>
+                        <li>
+                             <h2 class="h2-responsive badge blue">1# tag</h2>
+                        </li>
+ <li>
+                             <h2 class="h2-responsive badge blue">1# tag</h2>
+                        </li>
+                    	
+                    	</div>
+                    	<div class="col-md-3">
+                        <li>
+                             <h2 class="h2-responsive badge blue">1# tag</h2>
+                        </li>
+                        <li>
+                             <h2 class="h2-responsive badge blue">1# tag</h2>
+                        </li>
+                       	
+                    	</div>
+                    </div>
+                    </ul>
+                </div>
+                <!-- /.Caption -->
+                
+            </div>
+            <!--/.Second slide -->
+
+            <!-- Third slide -->
+            <div class="carousel-item view hm-black-strong" style="background-image: url('img/testd.jpg'); background-repeat: no-repeat; background-size: cover;">
+                
+                <!-- Caption -->
+                <div class="full-bg-img flex-center white-text">
+                    <ul class="animated fadeIn col-md-12">
+                    <div class="row">
+                    <div class="col-md-1"></div>
+                    	<div class="col-md-3">
+                	        <li><h1 class="h1-responsive">Total Questions asked</h1></li>
+                	        <li><h2 class="h2-responsive"><label class="badge blue">23</label></h2></li>
+                    	</div>
+                    	<div class="col-md-4">
+                	        <li><h1 class="h1-responsive">Total question Answered</h1></li>
+                	        <li><h2 class="h2-responsive"><label class="badge blue">23</label></h2></li>
+
+                    	</div>
+                    	<div class="col-md-3">
+                	        <li><h1 class="h1-responsive">Total number of blogs</h1></li>
+                	        <li><h2 class="h2-responsive"><label class="badge blue">23</label></h2></li>
+
+                    	</div>
+
+                    	<div class="col-md-1"></div>
+                    </div>
+                    </ul>
+                </div>
+                <!-- /.Caption -->
+                
+            </div>
+            <!--/.Third slide-->
+        </div>
+        <!--/.Slides-->
+
+        <!--Controls-->
+        <a class="carousel-control-prev" href="#carousel-example-3" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-example-3" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+        <!--/.Controls-->
+    </div>
+    <!--/.Carousel Wrapper-->
+
+    <br>
+<main>
+    <!--Content-->
+    <div class="container">
+        <div class="row mb-2">
+            <!--First columnn-->
+            <div class="col-lg-12">
+                <!--Card-->
+                <div class="card wow fadeIn" data-wow-delay="0.2s">
+                    <div class="card-block">
+	                    <a href="" style="color: #0099cc;"> Rohan</a> asked in 
+	                    	<label class="badge blue"><a href="" style="color: #FFFFFF;">Workspace</a></label> with 
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	            		
+	                        <h3 style="margin-top: 5px;margin-bottom: 5px;font-weight: bold;">The question?</h3>
+
+	            		<div class="row" style="padding-left: 5px;">
+
+	            			<div class="col-md-1 col-sm-1"> 
+	            				<img src="img/it6.jpg" alt="Circle Image" class="rounded-circle img-responsive">
+	            			</div>
+	            			<div class="col-md-11 col-sm-11" style="padding-left: 1px;">
+	            				<a href="" style="color: #0099cc;">Sarthak</a> answered
+	            				<div class="limittext lead" id="first">
+	            				cauhj asiuchj asuchnj uhdnas hauhdb dasnj saujnx sujnax sjuna iuajsk huans yhajsn uhnjdas udhas uhda sxyuwdsa uhdas uhwsa uyhnjas
+	            				</div>	    
+	            				<a id=firbut onclick="show('first','firbut')" href="#no">Read more</a>
+
+	            				<hr>        				
+           		 				<a class="cyan-text"><i class="fa fa-heart"></i> <mark>Upvote</mark></a>
+	            				<a class="cyan-text"><i class="fa fa-heart"></i> <mark>Upvote</mark></a>
+								<i class="fa fa-repeat"></i><small class="text-muted">  30 mins ago</small>
+
+	            			</div>
+
+	            		</div>
+            		</div>
+    		    </div>
+      		</div>
+  		</div>
+       		    		<!--card-1-->		
+        <div class="row">
+            <!--First columnn-->
+            <div class="col-lg-12">
+                <!--Card-->
+                <div class="card wow fadeIn" data-wow-delay="0.2s">
+                    <div class="card-block">
+	                    <a href="" style="color: #0099cc;"> Rohan</a> asked in 
+	                    	<label class="badge blue"><a href="" style="color: #FFFFFF;">Workspace</a></label> with 
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	                        <label class="badge" style="background-color: #8c8c8c;">Tags</label>
+	            		
+	                        <h3 style="margin-top: 5px;margin-bottom: 5px;font-weight: bold;">The question?</h3>
+
+	            		<div class="row" style="padding-left: 5px;">
+
+	            			<div class="col-md-1 col-sm-1"> 
+	            				<img src="img/it6.jpg" alt="Circle Image" class="rounded-circle img-responsive">
+	            			</div>
+	            			<div class="col-md-11 col-sm-11" style="padding-left: 1px;">
+	            				<a href="" style="color: #0099cc;">Sarthak</a> answered
+	            				<div class="limittext lead" id="second">
+	            				12345678910111213141516 171819202122 232222222222222222222222222222222222222222 111111111 11111111111 1111111111 1     555555555 9999999999
+	            				</div>
+	            				<a id=secbut onclick="show('second','secbut')" href="#no">Read more</a>
+	            				<hr>        				
+           		 				<a class="cyan-text"><i class="fa fa-heart"></i> <mark>Upvote</mark></a>
+	            				<a class="cyan-text"><i class="fa fa-heart"></i> <mark>Upvote</mark></a>
+								<i class="fa fa-repeat"></i><small class="text-muted">  30 mins ago</small>
+
+	            			</div>
+	            		</div>
+            		</div>
+    		    </div>
+            </div>
+        </div>
+             
+                
+                <!--/.Card-->
+            </div>
+            <!--First columnn-->
+        
+    <!--/.Content-->
+
+
+   </main>
+    <!--Footer-->
+   <footer class="page-footer center-on-small-only mt-3" id="footer">
+
+        <div class="container-fluid text-center" style="padding-bottom: 10px;">
+            © 2017 Made with <i class="fa fa-heart" aria-hidden="true" style="color: #ff4444;"></i> in India
+        </div>
+    <!--/.Copyright-->
+
+</footer>
+ <!--/.Footer-->
+
+    <!-- SCRIPTS -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/limittext.js"></script>
+    <script>
+    new WOW().init();
+    $('.carousel').carousel({
+  interval: 2000
+})
+    </script>
+
+</body>
+
+</html>
